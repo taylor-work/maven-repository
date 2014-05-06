@@ -1,0 +1,12 @@
+<plugin name='drcreference' version='0.1' grailsVersion='2.3 &gt; *'>
+  <author>Your name</author>
+  <title>Drcreference Plugin</title>
+  <description>Brief summary/description of the plugin.
+</description>
+  <documentation>http://grails.org/plugin/drcreference</documentation>
+  <type>DrcreferenceGrailsPlugin</type>
+  <resources>
+    <resource>Searchable</resource>
+    <resource>com.drc.ref.Ref</resource>
+  </resources>
+</plugin>
