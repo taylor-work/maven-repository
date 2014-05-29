@@ -1,0 +1,16 @@
+<plugin name='drcreference' version='0.2' grailsVersion='2.3 &gt; *'>
+  <author>Clyde Tedrick</author>
+  <authorEmail>ctedrick@compcc.com</authorEmail>
+  <title>Drcreference Plugin</title>
+  <description>DRC references plugin
+</description>
+  <documentation>http://grails.org/plugin/drcreference</documentation>
+  <type>DrcreferenceGrailsPlugin</type>
+  <resources>
+    <resource>DrcreferenceUrlMappings</resource>
+    <resource>Searchable</resource>
+    <resource>com.drc.ReferenceController</resource>
+    <resource>com.drc.ref.Ref</resource>
+    <resource>com.drc.service.ReferenceService</resource>
+  </resources>
+</plugin>
