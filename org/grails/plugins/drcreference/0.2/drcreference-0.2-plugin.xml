@@ -7,6 +7,7 @@
   <documentation>http://grails.org/plugin/drcreference</documentation>
   <type>DrcreferenceGrailsPlugin</type>
   <resources>
+    <resource>DrcreferenceBootStrap</resource>
     <resource>DrcreferenceUrlMappings</resource>
     <resource>Searchable</resource>
     <resource>com.drc.ReferenceController</resource>
